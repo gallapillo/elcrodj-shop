@@ -25,7 +25,7 @@ SECRET_KEY = '=ty$^@5c8omf@ulm$5*ui!we6u%a2fo6uc2+hq@f&amod()l8l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['elcrodj-shop.herokuapp.com','127.0.0.1:8002']
 
 
 # Application definition
