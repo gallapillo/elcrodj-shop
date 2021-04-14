@@ -20,9 +20,9 @@
             {{ product_image.product.price }} ₽
         </div>
         <div class="add-to-card-btn">
-            <button class="btn btn-success" style="background: #f179c2 !important;">
-                Добавить в корзину
-            </button>
+            <a href="{% url 'product' product_image.product.id %}" class="btn btn-success" style="background: #f179c2 !important;">
+                Подробнее
+            </a>
         </div>
     </div>
 </div>
